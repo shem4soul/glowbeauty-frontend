@@ -1,9 +1,22 @@
-export class Product {
-  constructor(id, name, description, price, image) {
-    this.id = id;
-    this.name = name;
-    this.description = description;
-    this.price = price;
-    this.image = image;
-  }
-}
+const products = [
+  {
+    id: 1,
+    name: "Lip Gloss",
+    price: 12.99,
+    image: "/images/lip-gloss.jpg",
+  },
+  {
+    id: 2,
+    name: "Nail Polish",
+    price: 9.99,
+    image: "/images/nail-polish.jpg",
+  },
+  {
+    id: 3,
+    name: "Serum",
+    price: 19.99,
+    image: "/images/serum.jpg",
+  },
+];
+
+export default products;
